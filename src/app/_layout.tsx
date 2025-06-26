@@ -1,4 +1,5 @@
-import { Slot, Stack } from "expo-router";
+import '../../global.css';
+import { Slot } from "expo-router";
 import { ThemeProvider, DarkTheme, DefaultTheme } from "@react-navigation/native";
 import { useColorScheme } from "react-native"; 
 
